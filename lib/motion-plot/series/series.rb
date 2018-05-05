@@ -1,7 +1,9 @@
 module MotionPlot
   class Series
-
-    COLORS = ['4572A7', 'AA4643', '89A54E', '80699B', '3D96AE', 'DB843D', '92A8CD', 'A47D7C', 'B5CA92']
+    #e6b7b7
+    #b2eab2
+    #COLORS = ['4572A7', 'AA4643', '89A54E', '80699B', '3D96AE', 'DB843D', '92A8CD', 'A47D7C', 'B5CA92']
+    COLORS = ['E6B7b7', 'B2EAB2', '89A54E', '80699B', '3D96AE', 'DB843D', '92A8CD', 'A47D7C', 'B5CA92']
 
     attr_accessor :name, :data, :index, :type, :style
     attr_reader :plot_symbol
